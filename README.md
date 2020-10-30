@@ -2,6 +2,7 @@
 
 Returned JSON object echoed back from PHP to AJAX (other methods are available) is of the structure:
 
+```bash
 success(response) {
 	var response = {
 		Headers: { ... },
@@ -9,6 +10,7 @@ success(response) {
 		data: { ... }
 	}
 }
+```
 
 ## Note:
 
